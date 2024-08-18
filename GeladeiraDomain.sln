@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geladeira2", "Geladeira2\Geladeira2.csproj", "{CE7F3464-6B5D-49AE-B053-A5A69128BCEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerGeladeira", "VerGeladeira\VerGeladeira.csproj", "{851049B6-3A24-439D-A520-A58928E78FB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE7F3464-6B5D-49AE-B053-A5A69128BCEA} = {CE7F3464-6B5D-49AE-B053-A5A69128BCEA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7F3464-6B5D-49AE-B053-A5A69128BCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7F3464-6B5D-49AE-B053-A5A69128BCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7F3464-6B5D-49AE-B053-A5A69128BCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7F3464-6B5D-49AE-B053-A5A69128BCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851049B6-3A24-439D-A520-A58928E78FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851049B6-3A24-439D-A520-A58928E78FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851049B6-3A24-439D-A520-A58928E78FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851049B6-3A24-439D-A520-A58928E78FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B02AE59-8F7A-42D5-B66C-67DF3BE96919}
+	EndGlobalSection
+EndGlobal
